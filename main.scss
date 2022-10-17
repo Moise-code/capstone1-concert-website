@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+$primary-color: #EC5242;
+$secondary-color: #D3D3D3;
+$teritiary-color: #272A31;
+$fourth-color: #535353;
+$fifth-color:#F6F6F6;
+$text-color:#3C3C3C;
+$primary-padding:1rem 2rem 1rem 2rem;
+$last-color:#F7F7F7;
+$category-color:#3B3E45;
+$main-font: 'Lato',sans-serif;
+
+@mixin main-text{
+    color: #EC5242;
+    font-family: $main-font;
+    font-weight: 900;
+    font-size: 3em;
+}
+*
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: $last-color;
+    background-image: url(./items/Img.png);
+    background-size:60rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: $main-font;
+
+
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 0rem;
+    width: 100%;
+    box-shadow: #272A31 12px;
+    top: 0;
+    left: 0;
+    margin-top: 0rem;
+    background-color:#7A7879;
+    border-radius: 0px 0px 12px 12px;
+    padding: .5rem 2rem;
+    position: fixed;
+
+ a .logo{
+    display: none;
+}
+.header-links{
+      display: none;
+    }
+    .header-links a{
+        text-decoration: none;
+    }
+
+}
+.hamburger{
+    z-index: 100;
+    
+    .bar {
+        display: block;
+        width: 40px;
+        height: 6px;
+        margin: 5px auto;
+        background-color: $teritiary-color;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+      }
+      
+      .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+      
+      .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+
+}
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 0rem 1.5rem 1rem 1.5rem;
+    margin-bottom: 1.65rem;
+    margin-top: 6rem;
+.intro-heading{
+    @include main-text;
+    align-items: center;
+    margin-bottom: 0;
+}
+p{
+    color: $teritiary-color;
+    font-family:$main-font;
+    border: 3px solid white;
+    padding: 5px;
+    line-height: 25px;
+    font-size:20px;
+
+}
+button{
+    border: solid $primary-color 2px;
+    padding: 1em;
+}
+img{
+margin-top: 10px;
+}
+}
+.explore-category{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url('./items/explore-section-background.png');
+.explore-category-line hr{
+    margin-left:6rem;
+    height: 3px;
+    margin-right:6rem;
+    background-color:  #EC5242;
+}
+.explore-category-heading {
+    text-align: center;
+    font-family: $main-font;
+    color: white;
+    font-size: 1rem;
+}
+ button{
+    float: center;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    font-family: $main-font;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+ }
+}
+.category-content{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    width:100%;
+    gap: 10px;
+    align-items: center;
+    background-color:$category-color ;
+    border-radius: 6px;
+
+margin-bottom: 8px;
+    img{
+        width: 15%;
+        height: 20%;
+    }
+    .category-title{
+        width: 15%;
+        color: $primary-color;
+        font-family: $main-font;
+
+    }
+    .category-paragraph{
+        width: 70%;
+        color: white;
+        font-size: 18px;
+    }
+}
+
+.singers-section{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    hr{
+        margin-left:8rem;
+    height: 3px;
+    margin-right:8rem;
+    background-color:  #EC5242;
+    }
+    .singer-section-heading{
+        text-align: center;
+        font-family: $main-font;
+        color: black;
+        font-size: 2rem;
+    }
+}
+.singer-content-content{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    gap: 10px;
+    align-items: center;
+
+
+margin-bottom: 8px;
+img{
+    width: 35%;
+    height: 20%; 
+}
+
+}
+.side-singer-content{
+    width:65%;
+    font-family: $main-font;
+.singer-title{
+    height: 30%;
+}
+.about-singer{
+    color: $primary-color;
+    font-style: italic;
+    font-family: $main-font;
+}
+hr{
+    margin-left:0rem;
+    height: 3px;
+    margin-right:12rem;
+    background-color:  #EC5242;
+}
+}

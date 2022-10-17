@@ -1,1 +1,202 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #F7F7F7;
+  background-image: url(./items/Img.png);
+  background-size: 60rem;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 0rem;
+  width: 100%;
+  box-shadow: #272A31 12px;
+  top: 0;
+  left: 0;
+  margin-top: 0rem;
+  background-color: #7A7879;
+  border-radius: 0px 0px 12px 12px;
+  padding: 0.5rem 2rem;
+  position: fixed;
+}
+header a .logo {
+  display: none;
+}
+header .header-links {
+  display: none;
+}
+header .header-links a {
+  text-decoration: none;
+}
+
+.hamburger {
+  z-index: 100;
+}
+.hamburger .bar {
+  display: block;
+  width: 40px;
+  height: 6px;
+  margin: 5px auto;
+  background-color: #272A31;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.hamburger .hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger .hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger .hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0rem 1.5rem 1rem 1.5rem;
+  margin-bottom: 1.65rem;
+  margin-top: 6rem;
+}
+.intro-container .intro-heading {
+  color: #EC5242;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  align-items: center;
+  margin-bottom: 0;
+}
+.intro-container p {
+  color: #272A31;
+  font-family: "Lato", sans-serif;
+  border: 3px solid white;
+  padding: 5px;
+  line-height: 25px;
+  font-size: 20px;
+}
+.intro-container button {
+  border: solid #EC5242 2px;
+  padding: 1em;
+}
+.intro-container img {
+  margin-top: 10px;
+}
+
+.explore-category {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-image: url("./items/explore-section-background.png");
+}
+.explore-category .explore-category-line hr {
+  margin-left: 6rem;
+  height: 3px;
+  margin-right: 6rem;
+  background-color: #EC5242;
+}
+.explore-category .explore-category-heading {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+.explore-category button {
+  float: center;
+  background-color: #EC5242;
+  color: white;
+  border: none;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.category-content {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  background-color: #3B3E45;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.category-content img {
+  width: 15%;
+  height: 20%;
+}
+.category-content .category-title {
+  width: 15%;
+  color: #EC5242;
+  font-family: "Lato", sans-serif;
+}
+.category-content .category-paragraph {
+  width: 70%;
+  color: white;
+  font-size: 18px;
+}
+
+.singers-section {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.singers-section hr {
+  margin-left: 8rem;
+  height: 3px;
+  margin-right: 8rem;
+  background-color: #EC5242;
+}
+.singers-section .singer-section-heading {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+
+.singer-content-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.singer-content-content img {
+  width: 35%;
+  height: 20%;
+}
+
+.side-singer-content {
+  width: 65%;
+  font-family: "Lato", sans-serif;
+}
+.side-singer-content .singer-title {
+  height: 30%;
+}
+.side-singer-content .about-singer {
+  color: #EC5242;
+  font-style: italic;
+  font-family: "Lato", sans-serif;
+}
+.side-singer-content hr {
+  margin-left: 0rem;
+  height: 3px;
+  margin-right: 12rem;
+  background-color: #EC5242;
+}/*# sourceMappingURL=main.css.map */
