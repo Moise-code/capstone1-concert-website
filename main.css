@@ -794,7 +794,7 @@ header .active .bar:nth-child(3) {
     background-color: white;
     padding: 0.5rem 6rem;
     box-shadow: 5px 4px 18px #000;
-    top: 8.5%;
+    top: 8%;
   }
 
   header > nav,
