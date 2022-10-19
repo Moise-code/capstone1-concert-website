@@ -1,0 +1,45 @@
+[
+    {
+        "name":"Marnaud",
+        "about":"Singer song writer grammy nominee",
+        "paragraph":"Marnaud is a Dj and a music producer.",
+        "image":"./items/singer1.png"
+
+    },
+    {
+        "name":"Diamond platinumz",
+        "about":"Singer song writer grammy nominee",
+        "paragraph":"Marnaud is a Dj and a music producer.",
+        "image":"./items/singer-two.png"
+
+    },
+    {
+        "name":"Adekune",
+        "about":"Singer song writer grammy nominee",
+        "paragraph":"Marnaud is a Dj and a music producer.",
+        "image":"./items/singer3.png"
+
+    },
+    {
+        "name":"Maroon",
+        "about":"Singer song writer grammy nominee",
+        "paragraph":"Marnaud is a Dj and a music producer.",
+        "image":"./items/singer4.png"
+
+    },
+    {
+        "name":"Adekune",
+        "about":"Singer song writer grammy nominee",
+        "paragraph":"Marnaud is a Dj and a music producer.",
+        "image":"./items/singer3.png"
+
+    },
+    {
+        "name":"Diamond platinumz",
+        "about":"Singer song writer grammy nominee",
+        "paragraph":"Marnaud is a Dj and a music producer.",
+        "image":"./items/singer-two.png"
+
+    }
+
+]
