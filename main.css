@@ -771,6 +771,20 @@ header .active .bar:nth-child(3) {
     font-family: "Lato", sans-serif;
     text-align: center;
     align-items: center;
+    transition: ease-in-out 0.5s;
+  }
+
+  header .nav-lists a {
+    text-decoration: none;
+    color: black;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 20px;
+    transition: 0.3s ease-in-out;
   }
 
   header {
@@ -798,7 +812,7 @@ header .active .bar:nth-child(3) {
   }
 
   .nav-lists,
-  a:hover {
+  .top-nav a:hover {
     color: #ec5242;
   }
 
@@ -809,19 +823,6 @@ header .active .bar:nth-child(3) {
     justify-content: center;
     gap: 40px;
     transition: 0.3s;
-  }
-
-  header .nav-lists a {
-    text-decoration: none;
-    color: black;
-    font-family: "Lato", sans-serif;
-    text-align: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 20px;
-    margin-left: 20px;
-    transition: 0.3s ease-in-out;
   }
 
   .explore-category button {
