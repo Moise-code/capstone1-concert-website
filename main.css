@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
 * body {
   padding: 0;
   margin: 0;
@@ -23,13 +24,14 @@ header {
   vertical-align: middle;
   color: #fff;
   background-color: #3b3e45;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0 0 10px 10px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 20;
 }
+
 header > nav,
 header .logo {
   display: none;
@@ -39,9 +41,11 @@ header .logo {
   font-weight: normal;
   text-decoration: none;
 }
+
 header .hamburger {
   z-index: 30;
 }
+
 header .hamburger .bar {
   display: block;
   width: 25px;
@@ -51,12 +55,15 @@ header .hamburger .bar {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+
 header .active .bar:nth-child(2) {
   opacity: 0;
 }
+
 header .active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
+
 header .active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
@@ -66,11 +73,12 @@ header .active .bar:nth-child(3) {
   flex-direction: column;
   gap: 2px;
   padding: 8rem 1.5rem 3rem 1.5rem;
-  margin-top: 0rem;
+  margin-top: 0;
   background-image: url(./items/Img.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .intro-container .intro-heading {
   color: #ec5242;
   font-family: "Lato", sans-serif;
@@ -79,6 +87,7 @@ header .active .bar:nth-child(3) {
   align-items: center;
   margin-bottom: 0;
 }
+
 .intro-container p {
   color: #272a31;
   font-family: "Lato", sans-serif;
@@ -87,10 +96,12 @@ header .active .bar:nth-child(3) {
   line-height: 25px;
   font-size: 20px;
 }
+
 .intro-container button {
   border: solid #ec5242 2px;
   padding: 1em;
 }
+
 .intro-container img {
   margin-top: 10px;
 }
@@ -102,10 +113,12 @@ header .active .bar:nth-child(3) {
   gap: 5px;
   background-image: url("./items/explore-section-background.png");
 }
+
 .explore-category .explore-category-line {
   margin-left: auto;
   margin-right: auto;
 }
+
 .explore-category .explore-category-line hr {
   margin-left: auto;
   height: 3px;
@@ -113,14 +126,15 @@ header .active .bar:nth-child(3) {
   width: 40px;
   background-color: #ec5242;
 }
+
 .explore-category .explore-category-line .explore-category-heading {
   text-align: center;
   font-family: "Lato", sans-serif;
   color: white;
   font-size: 1rem;
 }
+
 .explore-category button {
-  float: center;
   background-color: #ec5242;
   color: white;
   border: none;
@@ -148,14 +162,17 @@ header .active .bar:nth-child(3) {
   border-radius: 6px;
   margin-bottom: 8px;
 }
+
 .category-content img {
   width: 15%;
 }
+
 .category-content .category-title {
   width: 15%;
   color: #ec5242;
   font-family: "Lato", sans-serif;
 }
+
 .category-content .category-paragraph {
   width: 70%;
   color: white;
@@ -170,10 +187,12 @@ header .active .bar:nth-child(3) {
   flex-direction: column;
   gap: 5px;
 }
+
 .singers-section .singer-section-line {
   margin-left: auto;
   margin-right: auto;
 }
+
 .singers-section .singer-section-line hr {
   margin-left: auto;
   height: 3px;
@@ -181,6 +200,7 @@ header .active .bar:nth-child(3) {
   margin-right: auto;
   background-color: #ec5242;
 }
+
 .singers-section .singer-section-line .singer-section-heading {
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -192,6 +212,7 @@ header .active .bar:nth-child(3) {
   display: grid;
   grid-template-columns: 1fr;
 }
+
 .singer-content-container .singer-content-content {
   display: flex;
   flex-direction: row;
@@ -200,21 +221,31 @@ header .active .bar:nth-child(3) {
   align-items: center;
   margin-bottom: 8px;
 }
+
 .singer-content-container .singer-content-content .singer-content-image {
   width: 50%;
 }
+
+.footer .footer-image img {
+  align-items: center;
+  float: right;
+}
+
+.Sponsers-section .sponsor-images img {
+  width: 80%;
+}
+
 .singer-content-container .singer-content-content .singer-content-image img {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
   margin: auto;
 }
+
 .singer-content-container .singer-content-content .side-singer-content {
   width: 50%;
   height: auto;
   font-family: "Lato", sans-serif;
 }
+
 .singer-content-container .singer-content-content .side-singer-content .singer-title {
   width: 100%;
   font-family: "Lato", sans-serif;
@@ -222,6 +253,7 @@ header .active .bar:nth-child(3) {
   margin-top: 20px;
   margin-bottom: 2px;
 }
+
 .singer-content-container .singer-content-content .side-singer-content .about-singer {
   color: #ec5242;
   font-style: italic;
@@ -229,6 +261,169 @@ header .active .bar:nth-child(3) {
   margin-top: 6px;
   margin-bottom: 4px;
 }
+
+.tier-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.tier-section .tier-headding {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tier-section .tier-headding hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+}
+
+.tier-section .tier-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.tier-content2,
+.tier-content3 {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  box-shadow: 5px 12px 8px #888;
+  padding: 5rem;
+  border-radius: 20px 20px 5px 5px;
+  text-align: center;
+}
+
+.tier-content {
+  border-top: 8px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  box-shadow: 5px 12px 8px #888;
+  padding: 5rem 6rem;
+  border-radius: 20px 20px 5px 5px;
+  text-align: center;
+}
+
+.tier-content h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.tier-content h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tier-content p {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.tier-content button {
+  border: none;
+  padding: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: black;
+  color: #ec5242;
+}
+
+.tier-content2 {
+  border-top: 8px solid #ec5242;
+}
+
+.tier-content2 h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ec5242;
+}
+
+.tier-content2 h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ec5242;
+}
+
+.tier-content2 p {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.tier-content2 button {
+  border: none;
+  padding: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #ec5242;
+  color: black;
+}
+
+.tier-content3 {
+  border-top: 8px solid #d3d3d3;
+}
+
+.tier-content3 h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ec5242;
+}
+
+.tier-content3 h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ec5242;
+}
+
+.tier-content3 p {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.tier-content3 button {
+  border: none;
+  padding: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #ec5242;
+  color: black;
+}
+
+.Sponsers-section .sponsor-section-line hr {
+  background-color: #ec5242;
+  height: 3px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.past-events .past-event-headings hr {
+  background-color: #ec5242;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .singer-content-container .singer-content-content .side-singer-content hr {
   height: 3px;
   width: 10px;
@@ -237,6 +432,157 @@ header .active .bar:nth-child(3) {
   float: left;
   background-color: #ec5242;
 }
+
+.past-events {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 2rem 1rem;
+}
+
+.past-events .past-event-headings {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.past-events .past-event-headings h1 {
+  color: #3c3c3c;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+}
+
+.past-events .past-event-headings p {
+  color: #3c3c3c;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+.past-events .past-events-contents {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.past-events .past-events-contents .event1 {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 1rem;
+  background-image: url(./items/concert1.png);
+  border-radius: 5px;
+  filter: grayscale(100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Sponsers-section .sponsor-section-line h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.past-events .past-events-contents .event1 h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.footer .footer-rights p {
+  margin-top: 28px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.past-events .past-events-contents .event1 p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
+.past-events .past-events-contents .event2 {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 1rem;
+  align-items: center;
+  background-image: url(./items/concert2.png);
+  border-radius: 5px;
+  filter: grayscale(100%);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.past-events .past-events-contents .event2 h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.past-events .past-events-contents .event2 p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
+.past-events .past-events-contents .event3 {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 1rem;
+  align-items: center;
+  background-image: url(./items/concert3.png);
+  border-radius: 5px;
+  filter: grayscale(100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.past-events .past-events-contents .event3 h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.past-events .past-events-contents .event3 p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
+.event4:hover {
+  filter: grayscale(0);
+}
+
+.past-events .past-events-contents .event4 {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 1rem;
+  align-items: center;
+  background-image: url(./items/concert4.png);
+  border-radius: 5px;
+  filter: grayscale(100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: ease-in-out 1s;
+}
+
+.past-events .past-events-contents .event4 h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.past-events .past-events-contents .event4 p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
 .singer-content-container .singer-content-content .side-singer-content p {
   font-family: "Lato", sans-serif;
   margin-top: 4px;
@@ -254,6 +600,7 @@ header .active .bar:nth-child(3) {
   width: 100%;
   background-color: #f7f7f7;
 }
+
 .about-section .about-heading {
   color: #ec5242;
   font-family: "Lato", sans-serif;
@@ -266,12 +613,14 @@ header .active .bar:nth-child(3) {
   padding-bottom: 1rem;
   height: 120px;
 }
+
 .about-section .about-section-firstParagraph {
   text-align: center;
   color: #ec5242;
   font-family: "Lato", sans-serif;
   font-size: 24px;
 }
+
 .about-section .about-section-secondParagraph {
   font-family: "Lato", sans-serif;
   color: #272a31;
@@ -282,6 +631,7 @@ header .active .bar:nth-child(3) {
   text-align: center;
   background-color: white;
 }
+
 .about-section .about-third-paragraph {
   font-family: "Lato", sans-serif;
   color: #272a31;
@@ -290,6 +640,7 @@ header .active .bar:nth-child(3) {
   text-align: center;
   margin-bottom: 0;
 }
+
 .about-section .about-email {
   font-family: "Lato", sans-serif;
   color: #272a31;
@@ -303,265 +654,6 @@ header .active .bar:nth-child(3) {
   margin-right: auto;
 }
 
-.tier-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0rem;
-}
-.tier-section .tier-headding {
-  margin-left: auto;
-  margin-right: auto;
-}
-.tier-section .tier-headding hr {
-  margin-left: auto;
-  margin-right: auto;
-  width: 30px;
-}
-.tier-section .tier-cards {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 100%;
-}
-
-.tier-content2,
-.tier-content3 {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  box-shadow: 5px 12px 8px #888888;
-  padding: 5rem;
-  border-radius: 20px 20px 5px 5px;
-  text-align: center;
-}
-
-.tier-content {
-  border-top: 8px solid black;
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  box-shadow: 5px 12px 8px #888888;
-  padding: 5rem 6rem;
-  border-radius: 20px 20px 5px 5px;
-  text-align: center;
-}
-.tier-content h2 {
-  font-family: "Lato", sans-serif;
-  font-size: 40px;
-  letter-spacing: 2px;
-  font-weight: bold;
-}
-.tier-content h3 {
-  font-family: "Lato", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-}
-.tier-content p {
-  color: black;
-  font-family: "Lato", sans-serif;
-  font-size: 15px;
-}
-.tier-content button {
-  border: none;
-  padding: 1rem;
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  font-size: 17px;
-  border-radius: 10px;
-  background-color: black;
-  color: #ec5242;
-}
-
-.tier-content2 {
-  border-top: 8px solid #ec5242;
-}
-.tier-content2 h2 {
-  font-family: "Lato", sans-serif;
-  font-size: 40px;
-  letter-spacing: 2px;
-  font-weight: bold;
-  color: #ec5242;
-}
-.tier-content2 h3 {
-  font-family: "Lato", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: #ec5242;
-}
-.tier-content2 p {
-  color: black;
-  font-family: "Lato", sans-serif;
-  font-size: 15px;
-}
-.tier-content2 button {
-  border: none;
-  padding: 1rem;
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  font-size: 17px;
-  border-radius: 10px;
-  background-color: #ec5242;
-  color: black;
-}
-
-.tier-content3 {
-  border-top: 8px solid #d3d3d3;
-}
-.tier-content3 h2 {
-  font-family: "Lato", sans-serif;
-  font-size: 40px;
-  letter-spacing: 2px;
-  font-weight: bold;
-  color: #ec5242;
-}
-.tier-content3 h3 {
-  font-family: "Lato", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: #ec5242;
-}
-.tier-content3 p {
-  color: black;
-  font-family: "Lato", sans-serif;
-  font-size: 15px;
-}
-.tier-content3 button {
-  border: none;
-  padding: 1rem;
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  font-size: 17px;
-  border-radius: 10px;
-  background-color: #ec5242;
-  color: black;
-}
-
-.past-events {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: #f7f7f7;
-  padding: 2rem 1rem;
-}
-.past-events .past-event-headings {
-  margin-left: auto;
-  margin-right: auto;
-}
-.past-events .past-event-headings h1 {
-  color: #3c3c3c;
-  font-family: "Lato", sans-serif;
-  font-size: 32px;
-}
-.past-events .past-event-headings p {
-  color: #3c3c3c;
-  font-size: 18px;
-  font-family: "Lato", sans-serif;
-}
-.past-events .past-event-headings hr {
-  background-color: #ec5242;
-  width: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.past-events .past-events-contents {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-}
-.past-events .past-events-contents .event1 {
-  display: flex;
-  flex-direction: column;
-  padding: 6rem 1rem;
-  background-image: url(./items/concert1.png);
-  border-radius: 5px;
-  filter: grayscale(100%);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.past-events .past-events-contents .event1 h2 {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 32px;
-  font-weight: bolder;
-}
-.past-events .past-events-contents .event1 p {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-}
-.past-events .past-events-contents .event2 {
-  display: flex;
-  flex-direction: column;
-  padding: 6rem 1rem;
-  align-items: center;
-  background-image: url(./items/concert2.png);
-  border-radius: 5px;
-  filter: grayscale(100%);
-  background-color: rgba(0, 0, 0, 0.7);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.past-events .past-events-contents .event2 h2 {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 32px;
-  font-weight: bolder;
-}
-.past-events .past-events-contents .event2 p {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-}
-.past-events .past-events-contents .event3 {
-  display: flex;
-  flex-direction: column;
-  padding: 6rem 1rem;
-  align-items: center;
-  background-image: url(./items/concert3.png);
-  border-radius: 5px;
-  filter: grayscale(100%);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.past-events .past-events-contents .event3 h2 {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 32px;
-  font-weight: bolder;
-}
-.past-events .past-events-contents .event3 p {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-}
-.past-events .past-events-contents .event4 {
-  display: flex;
-  flex-direction: column;
-  padding: 6rem 1rem;
-  align-items: center;
-  background-image: url(./items/concert4.png);
-  border-radius: 5px;
-  filter: grayscale(100%);
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: ease-in-out 1s;
-}
-.past-events .past-events-contents .event4 h2 {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 32px;
-  font-weight: bolder;
-}
-.past-events .past-events-contents .event4 p {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-}
-
-.event4:hover {
-  filter: grayscale(0);
-}
-
 .Sponsers-section {
   display: flex;
   flex-direction: column;
@@ -570,31 +662,18 @@ header .active .bar:nth-child(3) {
   background-color: #414246;
   padding: 3rem;
 }
+
 .Sponsers-section .sponsor-section-line {
   margin-right: auto;
   margin-left: auto;
 }
-.Sponsers-section .sponsor-section-line h2 {
-  font-family: "Lato", sans-serif;
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
-}
-.Sponsers-section .sponsor-section-line hr {
-  background-color: #ec5242;
-  height: 3px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .Sponsers-section .sponsor-images {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
   gap: 20px;
-}
-.Sponsers-section .sponsor-images img {
-  width: 80%;
 }
 
 .footer {
@@ -607,21 +686,13 @@ header .active .bar:nth-child(3) {
   gap: 20px;
   width: 100%;
 }
+
 .footer .footer-image {
   width: 40%;
 }
-.footer .footer-image img {
-  align-items: center;
-  float: right;
-}
+
 .footer .footer-rights {
   width: 60%;
-}
-.footer .footer-rights p {
-  margin-top: 28px;
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -641,6 +712,7 @@ header .active .bar:nth-child(3) {
     padding-top: 30%;
     transition: 0.3s;
   }
+
   header .nav-lists a {
     display: flex;
     gap: 40px;
@@ -656,6 +728,7 @@ header .active .bar:nth-child(3) {
     padding-right: 1rem;
     padding-bottom: 1rem;
   }
+
   header .nav-lists button {
     color: #ec5242;
     padding: 1rem 2rem;
@@ -666,13 +739,14 @@ header .active .bar:nth-child(3) {
     border: solid 4px #ec5242;
     background-color: white;
   }
+
   header .nav-lists.active {
     left: 0%;
   }
 }
+
 @media (min-width: 768px) {
   .top-nav {
-    display: flex;
     background-color: #3e3e3e;
     color: white;
     position: fixed;
@@ -686,9 +760,11 @@ header .active .bar:nth-child(3) {
     left: 0;
     padding: 0.6rem 6rem;
   }
+
   .top-nav .top-nav-content {
     gap: 5px;
   }
+
   .top-nav a {
     text-decoration: none;
     color: white;
@@ -696,17 +772,19 @@ header .active .bar:nth-child(3) {
     text-align: center;
     align-items: center;
   }
+
   header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
     padding: 0.5rem 6rem;
-    box-shadow: 5px 4px 18px #000000;
+    box-shadow: 5px 4px 18px #000;
     top: 8.5%;
   }
+
   header > nav,
-header .logo {
+  header .logo {
     display: block;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
@@ -714,9 +792,16 @@ header .logo {
     font-weight: normal;
     text-decoration: none;
   }
+
   header .hamburger {
     display: none;
   }
+
+  .nav-lists,
+  a:hover {
+    color: #ec5242;
+  }
+
   header .nav-lists {
     display: flex;
     flex-direction: row;
@@ -725,6 +810,7 @@ header .logo {
     gap: 40px;
     transition: 0.3s;
   }
+
   header .nav-lists a {
     text-decoration: none;
     color: black;
@@ -737,6 +823,11 @@ header .logo {
     margin-left: 20px;
     transition: 0.3s ease-in-out;
   }
+
+  .explore-category button {
+    width: 30%;
+  }
+
   header .nav-lists button {
     border: #ec5242 4px solid;
     padding: 0.4rem 0.5rem;
@@ -745,18 +836,18 @@ header .logo {
     background-color: white;
     border-radius: 2px;
   }
-  .nav-lists, a:hover {
-    color: #ec5242;
-  }
+
   .intro-container {
     background-size: cover;
     width: 100%;
     padding-top: 11rem;
   }
+
   .intro-container .intro-heading {
     width: 60vw;
     margin-left: 4.2rem;
   }
+
   .intro-container p {
     color: white;
     line-height: 28px;
@@ -765,11 +856,13 @@ header .logo {
     margin-left: 4.2rem;
     text-align: left;
   }
+
   .intro-container img {
     margin-top: 10px;
     margin-left: 4.2rem;
     width: 45vw;
   }
+
   .explore-category {
     padding-top: 2rem;
     display: flex;
@@ -777,13 +870,12 @@ header .logo {
     gap: 5px;
     background-image: url("./items/explore-section-background.png");
   }
+
   .explore-category .explore-category-line hr {
     height: 3px;
     margin: 0 auto;
   }
-  .explore-category button {
-    width: 30%;
-  }
+
   .explore-category .category-content-wrap {
     display: flex;
     flex-direction: row;
@@ -792,11 +884,11 @@ header .logo {
     padding-left: 6rem;
     padding-right: 6rem;
   }
+
   .category-content {
     display: flex;
     flex-direction: column;
     padding: 6px 8px;
-    width: auto;
     gap: 10px;
     align-items: center;
     background-color: #3b3e45;
@@ -805,51 +897,63 @@ header .logo {
     height: auto;
     margin-bottom: 8px;
   }
+
   .category-content img {
     width: 20%;
     margin-left: auto;
     margin-right: auto;
   }
+
   .category-content .category-title {
     width: 100%;
     color: #ec5242;
     font-family: "Lato", sans-serif;
     text-align: center;
   }
+
   .category-content .category-paragraph {
     width: 100%;
     color: white;
     font-size: 14px;
     text-align: center;
   }
+
   .about-section {
     padding: 2rem 5rem;
   }
+
   .about-section .about-heading {
     height: 70px;
   }
+
   .singers-section {
     padding-left: 4.2rem;
     padding-right: 4.2rem;
   }
+
   .singers-section .singer-content-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .tier-section {
     padding: 2rem 4.2rem;
   }
+
   .tier-section .tier-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .tier-section .tier-content2,
-.tier-section .tier-content3 {
+  .tier-section .tier-content3 {
     padding: 1rem;
   }
+
   .tier-section .tier-content {
     padding: 1rem 2rem;
   }
+
   .past-events .past-events-contents {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -857,8 +961,9 @@ header .logo {
     padding-left: 4.2rem;
     padding-right: 4.2rem;
   }
+
   .Sponsers-section .sponsor-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}/*# sourceMappingURL=main.css.map */
+}

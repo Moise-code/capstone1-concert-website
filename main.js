@@ -3,7 +3,7 @@
 const hamburger = document.querySelector(".hamburger");
 const navLists = document.querySelector(".nav-lists");
 const singerContentContainer = document.querySelector(
-  ".singer-content-container"
+  ".singer-content-container",
 );
 
 hamburger.addEventListener("click", (e) => {
@@ -17,11 +17,12 @@ document.querySelectorAll(".nav-link").forEach((nav) =>
     e.preventDefault();
     hamburger.classList.remove("active");
     navLists.classList.remove("active");
-  })
-);
+  }));
 
-const displaySingers = ({name,about,paragraph,image}) => {
-  let div = document.createElement("div");
+const displaySingers = ({
+  name, about, paragraph, image,
+}) => {
+  const div = document.createElement("div");
   div.className = "singer-content-content";
   div.innerHTML = `
     <div class="singer-content-image">
@@ -34,7 +35,7 @@ const displaySingers = ({name,about,paragraph,image}) => {
     <p class="singer-paragraph">${paragraph}</p>
 </div>
     `;
-    return div;
+  return div;
 };
 
 const getSingers = async () => {
