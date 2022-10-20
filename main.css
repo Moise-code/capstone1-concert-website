@@ -789,12 +789,14 @@ header .active .bar:nth-child(3) {
 
   header {
     display: flex;
+    position: fixed;
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
     padding: 0.5rem 6rem;
     box-shadow: 5px 4px 18px #000;
-    top: 8%;
+    top: 5%;
+    left: 0%;
   }
 
   header > nav,
