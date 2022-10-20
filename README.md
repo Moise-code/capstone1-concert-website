@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# capstone1-concert-website
+# concert-website
  
 > This is the project for showcasing the ongoing concerts and provide a way to buy tickets
 
