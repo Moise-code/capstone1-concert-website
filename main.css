@@ -79,6 +79,15 @@ header .active .bar:nth-child(3) {
   background-size: cover;
 }
 
+.intro-container-hea {
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  padding-left: 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .intro-container .intro-heading {
   color: #ec5242;
   font-family: "Lato", sans-serif;
@@ -762,7 +771,10 @@ header .active .bar:nth-child(3) {
   }
 
   .top-nav .top-nav-content {
-    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
   }
 
   .top-nav a {
@@ -795,8 +807,7 @@ header .active .bar:nth-child(3) {
     background-color: white;
     padding: 0.5rem 6rem;
     box-shadow: 5px 4px 18px #000;
-    top: 5%;
-    left: 0%;
+    top: 7.5%;
   }
 
   header > nav,
@@ -844,6 +855,10 @@ header .active .bar:nth-child(3) {
     background-size: cover;
     width: 100%;
     padding-top: 11rem;
+  }
+
+  .intro-container-hea {
+    padding-left: 4.2rem;
   }
 
   .intro-container .intro-heading {

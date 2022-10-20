@@ -4,7 +4,7 @@
 capstone1-concert-website
 
 > Description the project.
-
+This is a project that is there to help people but tickets to the concerts so that they can go to attend the concerts.
 
 ## Built With
 
