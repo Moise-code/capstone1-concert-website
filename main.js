@@ -7,14 +7,12 @@ const singerContentContainer = document.querySelector(
 );
 
 hamburger.addEventListener("click", (e) => {
-  e.preventDefault();
   hamburger.classList.toggle("active");
   navLists.classList.toggle("active");
 });
 document.querySelectorAll(".nav-link").forEach((nav) =>
   // eslint-disable-next-line implicit-arrow-linebreak
   nav.addEventListener("click", (e) => {
-    e.preventDefault();
     hamburger.classList.remove("active");
     navLists.classList.remove("active");
   }));
