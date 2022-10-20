@@ -6,13 +6,13 @@ const singerContentContainer = document.querySelector(
   ".singer-content-container",
 );
 
-hamburger.addEventListener("click", (e) => {
+hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navLists.classList.toggle("active");
 });
 document.querySelectorAll(".nav-link").forEach((nav) =>
   // eslint-disable-next-line implicit-arrow-linebreak
-  nav.addEventListener("click", (e) => {
+  nav.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navLists.classList.remove("active");
   }));
