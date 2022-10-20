@@ -1,46 +1,40 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-capstone1-concert-website
-
-> Description the project.
-
+# capstone1-concert-website
+ 
+> This is the project for showcasing the ongoing concerts and provide a way to buy tickets
 
 ## Built With
 
 - HTML CSS and javascript
-- Sass and bootstrap
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://moise-code.github.io/capstone1-concert-website/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Node should be installed on local computer
+- Git must be installed on local computer
+- Must have a code editor
+
+
 
 ### Setup
+```bash
+   git clone https://github.com/Moise-code/capstone1-concert-website
+  ```
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+  ```bash
+   cd capstone1-concert-website
+  ```
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Moise Byiringiro**
 
 - GitHub: [@githubhandle](https://github.com/Moise-code)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -58,7 +52,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to Cindy Shin for the provision of the mockup
+- Project Original design idea by [Cindy Shin in Behance](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## 📝 License
 
